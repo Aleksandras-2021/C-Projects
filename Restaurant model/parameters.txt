@@ -1,0 +1,8 @@
+10	//Lėkščių skaičius,
+1000	//Modeliavimo laiko vienetai
+10	//Maksimalus kliento pavalgymo laikas
+1	//Minimalus kliento pavalgymo laikas
+5	//Lėkštės plovimo laikas 
+100	//Kliento atvykimo tikimybė (%)
+
+
