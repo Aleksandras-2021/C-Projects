@@ -4,12 +4,6 @@
 
  Procesas: klientai ateina į kavinę pasiima lėkštę iš stirtos, įsideda maisto, pavalgo, nešvarias lėkštes deda į indų plovimo mašiną, kuri švarias lėkštes deda atgal į stirtą. Tikslas: patyrinėti, kiek lėkščių reikėtų įsigyti kavinei (pageidautina, kad apie 10 procentų lėkščių būtų nenaudojamos, nes šiame modelyje nenumatyta sudaužimo galimybė). Pradiniai duomenys: lėkščių skaičius, kliento pavalgymo laikas, kliento atvykimo tikimybė (galima realizacija: generuojamas atsitiktinis skaičius ir tikrinama, ar jis tenkina tam tikrą sąlygą), lėkštės plovimo laikas (indų plovimo mašinos pajėgumai neriboti, t.y. plaunamų lėkščių skaičius neturi įtakos lėkštės išplovimo laikui). Rezultatai: statistika kažkuriam  (vartotojo nurodytam) laiko momentui, pavyzdžiui, vidutinis ir minimalus švarių lėkščių skaičius stirtoje (turėtų būti numatyta ir išskirtinė situacija; su pateiktais pradiniais duomenimis susidaro situacija, kad atėjęs klientas neranda švarios lėkštės).
 
-## Panaudoti duomenų tipai:
-### 1.  joli9279 (stekas).
-### 2.  albu9211 (savo pačio).
-
-
-
 ## Programos paleidimas
 Programa paleidžiama per `go.cmd` arba per `command line`. Programa turi du režimus
 1. Atsitiktinių duomenų režimas - programa atsitiktinai sugeneruos pradinius duomenis, kad tai aktyvuoti, reikia paleisti programa per `command line` su papildoma komanda `r` arba `randomised`, pvz.: ``main r`` arba paleidus per `goR.cmd` .
